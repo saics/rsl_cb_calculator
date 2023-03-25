@@ -1,11 +1,13 @@
 import './App.css';
+import Header from './components/Header/Header';
+
+
 
 function App(){
   return (
     <div className="App">
-      <header className='App-header'>
+      <Header />
         <h1>Clan Boss Calculator</h1>
-      </header>
       <main>
         {/* Komponente */}
       </main>

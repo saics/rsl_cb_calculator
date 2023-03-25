@@ -3,8 +3,11 @@
     "start": "concurrently \"npm run server\" \"npm run client\"",
     "server": "cd server && node server.js",
     "client": "cd client && npm start"
-},
+  },
   "dependencies": {
-    "concurrently": "^7.6.0"
+    "concurrently": "^7.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^5.1.0"
   }
 }
